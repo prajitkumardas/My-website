@@ -1,0 +1,62 @@
+
+/* LARGE DEVICE SCREEN */
+
+@media (min-width: 1200px) {
+
+}
+
+
+/* MEDIUM DEVICE SCREEN */
+
+@media (min-width: 768px) and (max-width: 1199px) {
+
+
+
+
+
+
+}
+
+
+
+
+/* SMALL DEVICE SCREEN */
+
+@media (max-width: 767px) {
+
+  .navbar-collapse {
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out; /* Adjust duration as needed */
+}
+
+.navbar-collapse.show {
+    height: 100vh; /* Or set a specific value for expanded height */
+}
+
+.navbar-nav {
+  flex-direction: column;
+  align-items:center;
+}
+
+.navbar-nav .nav-item .nav-link.selected::after{
+  display: none;
+  align-items: center;
+
+}
+
+.nav-item{
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+.nav-item .nav-link{
+  font-size: 20px;
+}
+
+
+  }
+
+     
+ 
+    
