@@ -45,39 +45,6 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 // NAVIGATION IN NAVBAR
 
-// HOME
-
-// SERVICE CARD 
-
-const serviceElements = document.querySelectorAll(".service");
-
-serviceElements.forEach((service, index) => {
-    const serviceId = `parallaxservice${index + 1}`;
-    const learnMoreLink = service.querySelector(".learn-more");
-
-    service.addEventListener("mousemove", handleParallax);
-    service.addEventListener("mouseleave", resetParallax);
-
-    function handleParallax(e) {
-        const centerX = service.offsetWidth / 6;
-        const centerY = service.offsetHeight / 6;
-        const mouseX = e.clientX - service.getBoundingClientRect().left;
-        const mouseY = e.clientY - service.getBoundingClientRect().top;
-
-        const deltaX = (mouseX - centerX) / 7;
-        const deltaY = (mouseY - centerY) / 7;
-
-        service.style.transform = `rotateX(${deltaY}deg) rotateY(${deltaX}deg) translateZ(12px)`;
-    }
-
-    function resetParallax() {
-        service.style.transform = "rotateX(0deg) rotateY(0deg) translateZ(0)";
-    }
-});
-
-// SERVICE CARD 
-
-// SCROLL TO TOP
 (function($) { "use strict";
 
 $(document).ready(function(){"use strict";
@@ -117,7 +84,7 @@ $(document).ready(function(){"use strict";
 
 	});
 
-})(jQuery);
+})
 
 // SCROLL TO TOP
 
