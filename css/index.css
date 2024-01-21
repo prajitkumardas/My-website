@@ -110,19 +110,89 @@ body{background-color: var(--body-background);
 
 }
 
+/* HTML: <div class="loader"></div> */
+
+.pre-loader{
+  background-color:#1A1D25;
+  width: 100%;
+  position: fixed;
+  height: 100vh;
+  z-index:9999 !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  top: 0px;
+
+}
+/* HTML: <div class="loader"></div> */
+.loader {
+  display: inline-flex;
+  gap: 10px;
+}
+.loader:before,
+.loader:after {
+  content: "";
+  height: 40px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background:
+    radial-gradient(farthest-side,#000 95%,#0000) 35% 35%/16px 16px no-repeat
+    #fff;
+  transform: scaleX(var(--s,1)) rotate(0deg);
+  animation: l6 1s infinite linear;
+}
+.loader:after {
+  --s: -1;
+  animation-delay:-0.1s;
+}
+@keyframes l6 {
+  100% {transform:scaleX(var(--s,1)) rotate(360deg);}
+}
+
+
+.loading-text {
+  width: fit-content;
+  font-size: 20px;
+  animation: l4 1s steps(4) infinite;
+  font-family: var(--font-1);
+  color: white;
+  margin-top: 8px;
+}
+.loading-text:before {
+  content:"Loading..."
+}
+
+
+
 
 .logo{
-  font-size: 30px;
+  font-size: 20px;
   color: var(--text-primary-for-dark-mode);
-
-  font-family: 'Caudex', serif;
+font-weight:600;
+  font-family:var(--font-1);
   margin: 0;
+  display: flex;
+  align-items: center;
+ 
 }
+
+.logo svg{
+  height: 28px;
+  margin-right: 8px;
+
+
+  
+}
+.logo svg path{
+  fill:var(--primary-color-for-dark-mode);
+}
+
 
 .navbar{
  
     position: fixed;
-    z-index: 999;
+    z-index: 99;
     width: 100%;
     top: 0;
    background-color:transparent;

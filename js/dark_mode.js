@@ -27,3 +27,9 @@ if (currentMode) {
 
 // Event listener for the toggle switch
 toggleSwitch.addEventListener('change', setMode);
+
+
+var loader = document.getElementById("preLoader");
+window.addEventListener("load", function(){
+    loader.style.display = "none";
+})
