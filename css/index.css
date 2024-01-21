@@ -112,7 +112,8 @@ body{background-color: var(--body-background);
 
 /* HTML: <div class="loader"></div> */
 
-.pre-loader{
+/* .pre-loader{ 
+  display: none;
   background-color:#1A1D25;
   width: 100%;
   position: fixed;
@@ -125,8 +126,9 @@ body{background-color: var(--body-background);
   top: 0px;
 
 }
-/* HTML: <div class="loader"></div> */
+
 .loader {
+  display: none;
   display: inline-flex;
   gap: 10px;
 }
@@ -148,7 +150,7 @@ body{background-color: var(--body-background);
 }
 @keyframes l6 {
   100% {transform:scaleX(var(--s,1)) rotate(360deg);}
-}
+} */
 
 
 .loading-text {

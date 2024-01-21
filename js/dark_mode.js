@@ -29,7 +29,7 @@ if (currentMode) {
 toggleSwitch.addEventListener('change', setMode);
 
 
-var loader = document.getElementById("preLoader");
-window.addEventListener("load", function(){
-    loader.style.display = "none";
-})
+// var loader = document.getElementById("preLoader");
+// window.addEventListener("load", function(){
+//     loader.style.display = "none";
+// })
