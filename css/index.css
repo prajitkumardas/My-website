@@ -20,6 +20,7 @@ body {
   --text-primary-for-dark-mode:#F6f6f6;
   --text-secondary-for-dark-mode:#9b9b9b;
   --text-tertiary-for-dark-mode:#6D6D6D;
+  --success:#30DB5B;
 
   --background-primary-for-dark-mode:#0D0D0D;
   --background-secondary-for-dark-mode:#1A1D25;
@@ -69,6 +70,7 @@ body.light-mode {
   --text-primary-for-dark-mode:#0A0911;
   --text-secondary-for-dark-mode:#666666;
   --text-tertiary-for-dark-mode:#8E8E92;
+  --success:#248A3D;
 
   --background-primary-for-dark-mode:#ffffff;
   --background-secondary-for-dark-mode:#f6f6f6;
@@ -1190,9 +1192,9 @@ border-radius: 50px;
 
 
 
-.container-for-portfolio-content:hover{
+/* .container-for-portfolio-content:hover{
   background:
-}
+} */
 
 .portfolio-content{
 
@@ -1983,4 +1985,25 @@ font-weight: 500;
   transition: all 200ms ease-out;
 }
 
-
+.message {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: start;
+  padding-top: 8px;
+}
+.message .success {
+  font-size: 16px;
+  color:var(--success);
+  position: absolute;
+  animation: buttons .3s linear;
+  display: none;
+}
+.message .danger {
+  font-size: 16px;
+  color: red;
+  position: absolute;
+  transition: .3s;
+  animation: buttons .3s linear;
+  display: none;
+}
