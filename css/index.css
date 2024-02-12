@@ -114,7 +114,7 @@ body{background-color: var(--body-background);
 
 /* HTML: <div class="loader"></div> */
 
-/* .pre-loader{ 
+.pre-loader{ 
   display: none;
   background-color:#1A1D25;
   width: 100%;
@@ -152,7 +152,7 @@ body{background-color: var(--body-background);
 }
 @keyframes l6 {
   100% {transform:scaleX(var(--s,1)) rotate(360deg);}
-} */
+}
 
 
 .loading-text {
@@ -208,8 +208,9 @@ font-weight:600;
   padding-left: 24px;
 }
 .conatainer-for-toogle-switch{
-  position: absolute;
+  position:relative;
   right: 12px;
+  top: 0px;
 } 
 
 .navbar.scrolled {

@@ -6,6 +6,8 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+
+
 body {
 
   --text-primary-for-dark-mode:#F6f6f6;
@@ -94,212 +96,170 @@ body.light-mode {
 
 /* MEDIUM DEVICE SCREEN */
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-width: 992px) and (max-width:1199px) {
+  .conatainer-for-toogle-switch{
+    display: none !important;
+
+  }
+  .service{
+    margin-bottom: 24px;
+  }
+
+}
 
 
+@media (min-width:768px) and (max-width: 991px) {
+
+  /* Existing styles within the media query */
   .switch {
-    display: inline-block;}
-    .navbar-link-holder{
-      padding-left: 36px;
-    padding-right: 36px;
-    }
-
-    .logo {
-      font-size: 18px;
-    }
-
-    .logo svg{
-      height: 24px;
-      margin-right: 8px;
-    
-    
-      
-    }
-
-    .slider:before{
+    display: inline-block;
+  }
+  .navbar-link-holder {
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  .logo {
+    font-size: 18px;
+  }
+  .logo svg {
+    height: 24px;
+    margin-right: 8px;
+  }
+  .slider:before {
     bottom: 4px;
-    }
-    .conatainer-for-toogle-switch{
+  }
+  .container-for-toogle-switch {
     position: relative;
-    right:0;
-    }
-
-
-.navbar-collapse {
-height: 0;
-overflow: hidden;
-transition: max-height 0.3s ease-in-out; 
-}
-
-
-.navbar-collapse.show {
-height: 100vh;
-display: flex;
-flex-direction: column;
-}
-
-.navbar-nav {
-flex-direction: column;
-align-items:center;
-}
-
-.navbar-nav .nav-item .nav-link.selected::after{
-display: none;
-align-items: center;
-
-}
-
-.nav-item{
-margin-top: 8px;
-margin-bottom: 8px;
-}
-
-.nav-item .nav-link{
-font-size: 20px;
-}
-
-
-.overlay.active {
-  display: block !important;
-  animation: slideInTopRight 0.5s ease forwards;
-
-}
-
-.overlay-content {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 0;
-  height: 0;
-  padding: 20px;
-  color: white; /* Adjust text color */
-  overflow: hidden;
-  opacity: 0;
-  transition: all 0.5s ease;
-}
-
-.overlay.active .overlay-content {
-  width: 100%;
-  height: 100%;
-  opacity: 1;
-}
-
-.navbar{
-  height: 57px !important;
-}
-
-.overlay {
-  display: none !important;
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  background-color:var(--background-primary-for-dark-mode);
-  z-index:99;
-}
-
-
-
-
-
-
-
-
-
-
-/* HERE SECTION STARTS HERE */
-.container-for-hero-section{
-  height: auto;
-  min-height: auto;
-  max-height: max-content;
-  
-
-}
-.container-for-hero-section {
-  align-items: center;
-  margin-top: 60px;
-  padding-bottom: 60px;}
-
-.hero-image-wrapper {
-  margin-bottom: 40px;
-}
-.wave-text{
-  text-align: center;
-}
-
-.hero-text{
-  text-align: center;
-}
-
-.iam-product-designer{
-  text-align: center;
-}
-.download-resume-button-container {
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
-
-
-/* SERVICE SECTION STARTS HERE */
-.parent-container-for-expertise-section {
-  background-color: var(--expertise-background);
-  padding-top: 60px;
-  padding-bottom: 36px;
-}
-
-.service {
-  margin-bottom: 24px;
-}
-
-/* SERVICE SECTION ENDS HERE */
-
-/* PORTFOLIO STARTS HERE */
-.parent-container-for-portfolio-section {
-  padding-top: 60px;
-  padding-bottom: 60px;}
-
-/* PORTFOLIO ENDS HERE */
-
-.contact-section {
-  padding-top: 60px;
-  padding-bottom: 60px;}
-
-  .inputbox .inputbox-content2 {
-    margin-bottom: 0;
+    right: 0;
   }
-
-
-  .button-in-portfolio::before {
+  .navbar-collapse {
+    height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+  }
+  .navbar-collapse.show {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .navbar-nav .nav-item .nav-link.selected::after {
+    display: none;
+    align-items: center;
+  }
+  .nav-item {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  .nav-item .nav-link {
+    font-size: 20px;
+  }
+  .overlay.active {
+    display: block !important;
+    animation: slideInTopRight 0.5s ease forwards;
+  }
+  .overlay-content {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    padding: 20px;
+    color: white;
+    overflow: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+  }
+  .overlay.active .overlay-content {
+    width: 100%;
     height: 100%;
-    background:var(--button-color);}
-  
-  .swiper{
-    padding: 0 !important;
+    opacity: 1;
   }
-  
-  .button-in-portfolio i{
-    color:var(--background-primary-for-dark-mode);
+  .navbar {
+    height: 57px !important;
   }
-  
-  .learn-more-link{
-    color: var(--text-primary-for-dark-mode) !important;
-    font-weight: bold;
+  .overlay {
+    display: none !important;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--background-primary-for-dark-mode);
+    z-index: 99;
   }
 
-  .service {
-    background:var(--service-card-hover);
-  
+  /* New styles added for the sections */
+  .container-for-hero-section {
+    height: auto;
+    min-height: auto;
+    max-height: max-content;
+    align-items: center;
+    margin-top: 60px;
+    padding-bottom: 60px;
   }
-  .parent-container-for-portfolio-section{
+  .hero-image-wrapper {
+    margin-bottom: 40px;
+  }
+  .wave-text {
+    text-align: center;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .iam-product-designer {
+    text-align: center;
+  }
+  .download-resume-button-container {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Service section */
+  .parent-container-for-expertise-section {
+    background-color: var(--expertise-background);
+    padding-top: 60px;
+    padding-bottom: 36px;
+  }
+  .service {
+    margin-bottom: 24px;
+    background: var(--service-card-hover); /* Added background */
+  }
+
+  /* Portfolio section */
+  .parent-container-for-portfolio-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
     padding-bottom: 60px;
   }
 
-
+  /* Contact section */
+  .contact-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .inputbox .inputbox-content2 {
+    margin-bottom: 0;
+  }
+  .button-in-portfolio::before {
+    height: 100%;
+    background: var(--button-color);
+  }
+  .swiper {
+    padding: 0 !important;
+  }
+  .button-in-portfolio i {
+    color: var(--background-primary-for-dark-mode);
+  }
+  .learn-more-link {
+    color: var(--text-primary-for-dark-mode) !important;
+    font-weight: bold;
+  }
 }
-
 
 
 
@@ -764,4 +724,3 @@ padding: 20px !important;
   }
 
  
-    

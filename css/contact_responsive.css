@@ -80,10 +80,15 @@ body.light-mode {
   
   }
   
+  @media (min-width: 992px) and (max-width:1199px) {
+
+
+  }
+  
   
   /* MEDIUM DEVICE SCREEN */
   
-  @media (min-width: 768px) and (max-width: 1199px) {
+  @media (min-width: 768px) and (max-width: 991px) {
     .switch {
       display: inline-block;}
       .navbar-link-holder{

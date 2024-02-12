@@ -81,11 +81,17 @@ body.light-mode {
   @media (min-width: 1200px) {
   
   }
+
+  @media (min-width: 992px) and (max-width:1199px) {
+
+
+  }
+  
   
   
   /* MEDIUM DEVICE SCREEN */
-  
-  @media (min-width: 768px) and (max-width: 1199px) {
+
+  @media (min-width: 768px) and (max-width:991px) {
     .switch {
       display: inline-block;}
       .navbar-link-holder{
@@ -152,7 +158,7 @@ body.light-mode {
     width: 0;
     height: 0;
     padding: 20px;
-    color: white; /* Adjust text color */
+    color: white; 
     overflow: hidden;
     opacity: 0;
     transition: all 0.5s ease;
@@ -299,12 +305,15 @@ margin-bottom: 12px;
   
   }
   
+
+  
+ 
   
   
   
   /* SMALL DEVICE SCREEN */
   
-  @media (max-width: 767px) {
+  @media (max-width:767px) {
 
     /* NAVBAR */
 
