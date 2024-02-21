@@ -33,7 +33,7 @@ body {
 
 
 
-  --border-line-one-for-dark-mode:#6D6D6D;
+  --border-line-one-for-dark-mode:#222A3D;
 
   --primary-color-for-dark-mode:#759CFf;
 
@@ -67,7 +67,7 @@ body.light-mode {
 
   
 
-  --border-line-one-for-dark-mode:#8E8E92;
+  --border-line-one-for-dark-mode:#E7E6E7;
 
   --primary-color-for-dark-mode:#1149D7;
 

@@ -48,7 +48,7 @@ body {
   --footer-background:#0d0d0d;
 
 
-  --border-line-one-for-dark-mode:#6D6D6D;
+  --border-line-one-for-dark-mode:#222A3D;
 
   --primary-color-for-dark-mode:#759CFf;
 
@@ -89,7 +89,7 @@ body.light-mode {
   --service-card-hover:linear-gradient(330deg, rgba(17, 73, 215, 0.20) -0.05%, rgba(17, 73, 215, 0.00) 87.25%), #FFF;
   --half-circle-background:linear-gradient(150deg, #B5C7F3 7.69%, #1149D7 103.89%);
 --body-background:#f6f6f6;
-  --border-line-one-for-dark-mode:#8E8E92;
+  --border-line-one-for-dark-mode:#E7E6E7;
   --secondary-button:#E7EDFB;
     --secondary-button-hover:#EDF2FC;
   --primary-color-for-dark-mode:#1149D7;

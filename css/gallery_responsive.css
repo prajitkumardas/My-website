@@ -25,7 +25,7 @@ body {
   --half-circle-background:linear-gradient(159deg, #F6F6F6 7.39%, #759CFF 73.45%);
 
 
-  --border-line-one-for-dark-mode:#6D6D6D;
+  --border-line-one-for-dark-mode:#222A3D;
 
   --primary-color-for-dark-mode:#759CFf;
 
@@ -56,7 +56,7 @@ body.light-mode {
   --service-card-hover:linear-gradient(227deg, rgba(181, 199, 243, 0.46) 0%, rgba(231, 237, 251, 0.00) 100%), #FFF;
   --half-circle-background:linear-gradient(150deg, #B5C7F3 7.69%, #1149D7 103.89%);
 
-  --border-line-one-for-dark-mode:#8E8E92;
+  --border-line-one-for-dark-mode:#E7E6E7;
 
   --primary-color-for-dark-mode:#1149D7;
 

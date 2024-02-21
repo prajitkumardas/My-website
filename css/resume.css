@@ -27,7 +27,7 @@ body {
   --service-item:rgba(23, 27, 37, 0.50);
   --personal-container:#1A1D25;
 
-  --border-line-one-for-dark-mode:#6D6D6D;
+  --border-line-one-for-dark-mode:#222A3D;
 
   --primary-color-for-dark-mode:#759CFf;
 
@@ -72,7 +72,7 @@ body.light-mode {
   --education-experience-container:#ffffff;
   --half-circle-background:linear-gradient(150deg, #B5C7F3 7.69%, #1149D7 103.89%);
 
-  --border-line-one-for-dark-mode:#8E8E92;
+  --border-line-one-for-dark-mode:#E7E6E7;
   --service-card:linear-gradient(227deg, rgba(181, 199, 243, 0.46) 0%, rgba(231, 237, 251, 0.00) 100%), #FFF;
   --personal-container:#ffffff;
   --primary-color-for-dark-mode:#1149D7;
@@ -596,7 +596,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,.06);
   font-weight:bold;
   margin: 0;
   text-align: left;
-  border-bottom: 1px solid var(--text-tertiary-for-dark-mode);
+  border-bottom: 1px solid var(--border-line-one-for-dark-mode);
   z-index: 1;
   margin-bottom: 40px;
   position: relative;

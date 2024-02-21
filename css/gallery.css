@@ -27,7 +27,7 @@
     --floating-icon:linear-gradient(326deg, rgba(117, 156, 255, 0.37) -23.98%, rgba(117, 156, 255, 0.00) 90.47%);
     --bigtext:linear-gradient(180deg, rgba(117, 156, 255, 0.48) 37%, rgba(117, 156, 255, 0.00) 90.29%);
   
-    --border-line-one-for-dark-mode:#6D6D6D;
+    --border-line-one-for-dark-mode:#222A3D;
   
     --primary-color-for-dark-mode:#759CFf;
     --secondary-button:#222A3D;
@@ -63,7 +63,7 @@
     --bigtext:linear-gradient(180deg, rgba(17, 73, 215, 0.48) 41.05%, rgba(17, 73, 215, 0.00) 80.54%);
 
 
-    --border-line-one-for-dark-mode:#8E8E92;
+    --border-line-one-for-dark-mode:#222A3D;
     --interest-section:#f6f6f6;
   
     --primary-color-for-dark-mode:#1149D7;
@@ -174,7 +174,7 @@ text-align: center;
 }
 
 .recent{
-  padding-bottom: 80px;
+  padding-bottom: 64px;
   background-color: var(--interest-section);
 
 }
