@@ -251,8 +251,14 @@ body.light-mode {
     
     
     .logo{
-      font-size: 28px;
+      font-size: 20px;
     }
+
+        
+ .logo svg {
+  height: 24px;
+  margin-right: 8px;
+}
     .navbar-toggler i{
       font-size: 32px;
     }

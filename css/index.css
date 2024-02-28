@@ -253,6 +253,7 @@ font-weight:600;
 
   .nav-link{
     position: relative;
+    
   }
 
   .navbar-toggler{
@@ -966,7 +967,7 @@ font-family:var(--font-1);
 
 .service-content .learn-more-link{
     font-size: 14px !important;
-    font-family: 'Lato', sans-serif !important;
+    font-family:var(--font-2) !important;
     color: var(--text-secondary-for-dark-mode);
     text-decoration:  none;
 
@@ -1235,7 +1236,7 @@ border-radius: 50px;
   font-size: 12px;
   font-weight: normal;
   font-family:var(--font-2);
-  padding: 4px 12px;
+  padding: 6px 8px;
   border-radius: 24px;
   background:var(--portfolio-category-tag);
 
@@ -1901,7 +1902,7 @@ font-weight: 500;
 
   left: 0;
 
-  color:var(--text-tertiary-for-dark-mode);
+  color:var(--text-secondary-for-dark-mode);
   cursor: text;
   -webkit-transition: all 200ms ease-out;
   -o-transition: all 200ms ease-out;
@@ -1950,7 +1951,7 @@ font-weight: 500;
 
   left: 0;
 
-  color:var(--text-tertiary-for-dark-mode);
+  color:var(--text-secondary-for-dark-mode);
   cursor: text;
   -webkit-transition: all 200ms ease-out;
   -o-transition: all 200ms ease-out;

@@ -119,12 +119,9 @@ body.light-mode {
     padding-right: 24px;
   }
   .logo {
-    font-size: 18px;
+    font-size: 28px;
   }
-  .logo svg {
-    height: 24px;
-    margin-right: 8px;
-  }
+
   .slider:before {
     bottom: 4px;
   }
@@ -317,11 +314,6 @@ body.light-mode {
 
 .navbar{
   height: 52px !important;
-}
-
-
-.logo {
-  font-size: 18px;
 }
 
 .logo svg{
