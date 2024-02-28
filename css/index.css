@@ -990,6 +990,12 @@ font-family:var(--font-1);
 
 }
 
+.modal-content img{
+  max-height: 350px;
+  height: 220px;
+  object-fit: cover;
+}
+
 
 .modal-body ul{
   padding-left: 1rem;
