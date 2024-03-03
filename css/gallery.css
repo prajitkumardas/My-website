@@ -16,7 +16,7 @@
     --background-secondary-for-dark-mode:#1A1D25;
   
     --overlay-background-in-hero-section:radial-gradient(ellipse at bottom, #081A34 0%, #0C0E1A 50%);
-    --floating-image-background:#1A1D25;
+
     --portfolio-card-background: linear-gradient(93deg, #262B35 -1.28%, #171B22 99.56%, #21252C 99.56%);
     
     --portfolio-category-tag:#171B25;
@@ -53,7 +53,7 @@
     --background-primary-for-dark-mode:#ffffff;
     --background-secondary-for-dark-mode:#f6f6f6;
     --overlay-background-in-hero-section:radial-gradient(ellipse at bottom, #f3f6ff 0%, #f9fbff 50%);
-    --floating-image-background:#E8E8E8;
+
     --portfolio-card-background:#FFF;
     --toogle-background:#e1e1e1;
     --portfolio-category-tag:#F6F6F6;

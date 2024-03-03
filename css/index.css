@@ -26,7 +26,7 @@ body {
   --background-secondary-for-dark-mode:#1A1D25;
 
   --overlay-background-in-hero-section:radial-gradient(ellipse at bottom, #081A34 0%, #0C0E1A 50%);
-  --floating-image-background:#1A1D25;
+  --floating-image-background: linear-gradient(0deg, rgba(26,29,37,1) 0%, rgba(98,109,139,1) 100%);
   --portfolio-section-in-home:#1A1D25;
   --portfolio-card-background: linear-gradient(93deg, #262B35 -1.28%, #171B22 99.56%, #21252C 99.56%);
   --portfolio-image-background:radial-gradient(108.52% 75.71% at 47.96% 45.01%, rgba(146, 171, 237, 0.47) 0%, rgba(146, 171, 237, 0.38) 19.44%, rgba(146, 171, 237, 0.02) 100%), #0D0D0D;
@@ -75,7 +75,7 @@ body.light-mode {
   --background-primary-for-dark-mode:#ffffff;
   --background-secondary-for-dark-mode:#f6f6f6;
   --overlay-background-in-hero-section:radial-gradient(ellipse at bottom, #f3f6ff 0%, #f9fbff 50%);
-  --floating-image-background:#E8E8E8;
+  --floating-image-background:linear-gradient(180deg, #F9F9F9 0.06%, #B9B9B9 97.35%);
   --portfolio-card-background:#FFF;
   --portfolio-image-background:radial-gradient(97.14% 75.66% at 50% 50%, #C8C8C8 0%, #F6F6F6 100%), #FFF;
   --toogle-background:#e1e1e1;
@@ -501,7 +501,8 @@ position: relative;
 
 
 .hero-image-cover{
-background-color:var(--floating-image-background);
+
+background:var(--floating-image-background);
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -519,6 +520,15 @@ z-index: 1;
 position: relative;
 
 }
+
+.hero-image-cover img{
+  object-fit: contain;
+  transform: scale(1.1);
+}
+
+
+
+
 .background-circle{
   height: 167px;
   position:absolute;
