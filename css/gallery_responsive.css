@@ -256,10 +256,15 @@ font-size: 20px;
     
  .logo svg {
   height: 24px;
-  margin-right: 8px;
+  margin-right: 4px;
 }
  .logo{
       font-size: 20px;
+    }
+    
+
+    .logo .rajit{
+      height: 22px !important;
     }
     .navbar-toggler i{
       font-size: 32px;

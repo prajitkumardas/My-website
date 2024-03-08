@@ -177,13 +177,13 @@ font-weight:600;
   font-family:var(--font-1);
   margin: 0;
   display: flex;
-  align-items: center;
+  align-items: end;
  
 }
 
 .logo svg{
-  height: 28px;
-  margin-right: 8px;
+  height: 24px;
+  margin-right: 4px;
 
 
   
@@ -191,6 +191,19 @@ font-weight:600;
 .logo svg path{
   fill:var(--primary-color-for-dark-mode);
 }
+
+
+.logo .rajit path{
+  fill:var(--text-primary-for-dark-mode);
+}
+
+.logo .rajit{
+  height:25px;
+  margin-top: 4px;
+}
+
+
+
 
 
 .navbar{
