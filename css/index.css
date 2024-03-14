@@ -365,7 +365,7 @@ font-weight:600;
   left: 0;
   right: 0;
   bottom: 0;
-  background-color:var(--toogle-background);
+  background-color:var(--toogle-background) !important;
   -webkit-transition: .4s;
   -o-transition: .4s;
   transition: .4s;
