@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function() {
             const targetPage = this.getAttribute('data-target');
             switch (targetPage) {
                 case 'home':
-                    window.location.href = 'home.html'; // Replace with your home page URL
+                    window.location.href = 'index.html'; // Replace with your home page URL
                     break;
                 case 'about':
                     window.location.href = 'about.html'; // Replace with your about page URL
