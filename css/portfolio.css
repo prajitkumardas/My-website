@@ -207,7 +207,7 @@ text-align: center;
 border-radius: 60px;
 background:var(--sticky-container);
 padding: 8px 8px;
-width: 40%;
+width: 35%;
 position: sticky;
 top: 70px;
 backdrop-filter: blur(20.5px);

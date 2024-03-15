@@ -75,7 +75,7 @@
                     <span class="slider"></span>
                 </label>
 
-                <button class="navbar-toggler" id="navbar-toggler" aria-label="Toggle navigation">
+                <button aria-label="toogle-button" class="navbar-toggler navbar-toogle-mobile" id="navbar-toggler" >
                     <i class="hamburger bi bi-list"></i>
                     <span class="cross bi bi-x" style="display: none;"></span>
                 </button>
@@ -104,30 +104,37 @@
             </div>
 
 
-            <div class="overlay d-lg-none" id="overlay">
+            <div class="overlay-for-mobile d-xl-none">
                 <!-- Content that appears when the button is clicked -->
-                <div class="overlay-content">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 menu-items" id="menu">
+                <div class="mobile-menu-container">
+                    <ul class="mb-2 mb-lg-0" id="menu">
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-target="home">Home</a>
-                        </li>
-                       
-                        <li class="nav-item">
-                            <a class="nav-link" href="#" data-target="resume">Resume</a>
+                            <a class="nav-link link-for-mobile " href="index.html" data-target="home">Home<i class="bi bi-box-arrow-up-right mx-2"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link selected active" href="#" data-target="portfolio">Project</a>
+                            <a class="nav-link link-for-mobile" href="resume.html" data-target="resume">Resume<i class="bi bi-box-arrow-up-right mx-2"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link " href="#" data-target="about">gallery</a>
+                            <a class="nav-link link-for-mobile selected" href="portfolio.html" data-target="portfolio">Project<i class="bi bi-box-arrow-up-right mx-2"></i></a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#" data-target="contact">Contact</a>
+                            <a class="nav-link link-for-mobile" href="about.html" data-target="about">Gallery<i class="bi bi-box-arrow-up-right mx-2"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-for-mobile" href="contact.html" data-target="contact">Contact<i class="bi bi-box-arrow-up-right mx-2"></i></a>
                         </li>
                     </ul>
-
                 </div>
-
+                <div class="d-flex flex-row align-items-center justify-content-center mt-2 overflow-hidden social-icon-in-menu">
+                    <a aria-label="instagram" href="https://www.instagram.com/iam_prajit/" class="social-icon bottom-to-top" target="_blank"><i
+                            class="bi bi-instagram"></i></a>
+                    <a aria-label="behance" href="https://www.behance.net/pradas3" class="social-icon bottom-to-top" target="_blank"><i
+                            class="bi bi-behance"></i></a>
+                    <a aria-label="dribbble" href="https://dribbble.com/PrajitO1" class="social-icon bottom-to-top" target="_blank"><i
+                            class="bi bi-dribbble"></i></a>
+                    <a aria-label="linkedin" href="https://www.linkedin.com/in/prajit-das-1b75881a2/" class="social-icon bottom-to-top" target="_blank"><i
+                            class="bi bi-linkedin"></i></a>
+                </div>
             </div>
             
         </div>

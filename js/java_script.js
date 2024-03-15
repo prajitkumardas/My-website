@@ -88,3 +88,11 @@ $(document).ready(function(){"use strict";
 
 // SCROLL TO TOP
 
+document.addEventListener('DOMContentLoaded', function() {
+    var toggleButton = document.querySelector('.navbar-toogle-mobile');
+    var overlay = document.querySelector('.overlay-for-mobile ');
+    
+    toggleButton.addEventListener('click', function() {
+        overlay.classList.toggle('open');
+    });
+});

@@ -139,8 +139,8 @@ align-items: center;
 }
 
 .nav-item{
-margin-top: 8px;
-margin-bottom: 8px;
+margin-top: 20px;
+margin-bottom: 20px;
 }
 
 .nav-item .nav-link{
@@ -320,8 +320,8 @@ font-size: 20px;
     }
     
     .nav-item{
-      margin-top: 8px;
-      margin-bottom: 8px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
     
     .nav-item .nav-link{

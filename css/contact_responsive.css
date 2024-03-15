@@ -136,8 +136,8 @@ body.light-mode {
   }
   
   .nav-item{
-  margin-top: 8px;
-  margin-bottom: 8px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   
   .nav-item .nav-link{
@@ -351,8 +351,8 @@ right:0;
   }
 
 .nav-item{
-  margin-top: 8px;
-  margin-bottom: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .nav-item .nav-link{

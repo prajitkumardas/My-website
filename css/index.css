@@ -348,7 +348,7 @@ font-weight:600;
   width:48px;
   height: 40px;
   top: 50%;
-  z-index: 2;
+  z-index: 1 !important;
   right:0;
 }
 
@@ -2038,3 +2038,139 @@ font-weight: 500;
   animation: buttons .3s linear;
   display: none;
 }
+
+
+
+/* HARMBURGER MENU FOR MOBILE VIEW */
+
+.mobile-menu-container li{
+  list-style: none;
+  display: flex;
+  justify-content: left;
+
+}
+
+.mobile-menu-container ul{
+ padding: 0px;
+ margin-top: 52px;
+display: flex;
+justify-content: left;
+flex-direction: column;
+margin-left: 24px;
+
+}
+
+.mobile-menu-container{
+  display: flex;
+
+  flex-direction: column;
+}
+
+.link-for-mobile.selected{
+  font-size: 32px !important;
+  color: var(--primary-color-for-dark-mode);
+ 
+
+}
+.link-for-mobile.selected i{
+  font-size: 28px;
+}
+.link-for-mobile i{
+  font-size: 20px;
+}
+
+.link-for-mobile{
+  font-size: 24px !important;
+  text-transform: uppercase;
+  color: var(--text-primary-for-dark-mode);
+  font-weight: 500;
+  padding: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+
+
+
+.overlay-for-mobile {
+  position: fixed !important;
+  top: -100% !important; /* Initially positioned above the viewport */
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  overflow: hidden !important;
+  background-color: var(--background-primary-for-dark-mode);
+  transition: top 0.8s ease-in-out !important; /* Transition for top position change */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+
+}
+
+.overlay-for-mobile.open {
+  top: 0 !important; 
+ 
+
+}
+
+.mobile-menu-container{
+
+}
+
+.social-icon-in-menu{
+  margin-bottom: 24px;
+
+}
+
+
+
+/* 
+.overlay-for-mobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.7);
+  transition: height 0.5s ease-in-out;
+}
+
+.overlay-for-mobile.open {
+  height: 100vh; 
+}
+
+.mobile-menu-container.slide-from-top {
+  animation: slideFromTop 0.5s ease forwards;
+}
+
+
+.overlay-for-mobile.open .mobile-menu-container.slide-from-top {
+  transform: translateY(0);
+}
+
+.mobile-menu-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-top: 20vh;
+  text-align: center;
+   animation: slideFromTop 0.5s ease forwards;
+    transform: translateY(-100%);
+}
+
+
+
+@keyframes slideFromTop {
+  from {
+      transform: translateY(-100%);
+  }
+  to {
+      transform: translateY(0);
+  }
+} */
