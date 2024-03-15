@@ -585,6 +585,10 @@ margin-bottom: 12px;
         transform: translateY(0px);
     }
 
+    .degree-name{
+      font-size: 20px;
+    }
+
     .separate-education-container{
         border: 1px solid var(--border-line-one-for-dark-mode);
     }
