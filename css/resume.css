@@ -654,7 +654,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,.06);
 .degree-name{
    color:var(--text-primary-for-dark-mode);
 
-    font-size: 20px;
+    font-size: 24px;
     font-family: var(--font-1);
     margin: 0;
     font-weight:700;
@@ -702,6 +702,7 @@ box-shadow: 0px 0px 20px rgba(0,0,0,.06);
   justify-content: start;
   align-items: center;
   flex-direction: row;
+  margin-left: 52px;
 
 }
 
@@ -710,18 +711,37 @@ box-shadow: 0px 0px 20px rgba(0,0,0,.06);
   justify-content: start;
   align-items: center;
   flex-direction: row;
-
+  margin-left: 52px;
 }
 
 .place-container{
   display: flex;
   justify-content: start;
   align-items: center;
+  margin-left: 52px;
   flex-direction: row;
 
 }
 
+.container-for-design-course{
+  position: relative;
 
+}
+
+.container-for-design-course::before{
+  content: "";
+    background:var(--primary-color-for-dark-mode);
+    width: 2px;
+    height: 100%;
+    position: absolute;
+    left: 20px;
+    top: 40px;
+}
+
+.container-for-design-course:last-child::before{
+  height: 0;
+ 
+}
 
 
 
