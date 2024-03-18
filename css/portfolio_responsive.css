@@ -144,6 +144,11 @@ align-items: center;
   margin-bottom: 20px;
 }
 
+.portfolio-nav{
+  margin-top: 8px;
+margin-bottom: 8px;
+}
+
 .nav-item .nav-link{
 font-size: 20px;
 }
